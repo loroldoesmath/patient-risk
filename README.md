@@ -13,9 +13,18 @@ This is a sample final project created for TEDA 1031 - Data Science with Python.
 - [How to Run the Code](#how-to-run-the-code)
 
 ## Dataset
-- **Source**: [Brain Stroke Dataset on Kaggle](https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset)
-- **Dataset Description**: This dataset contains demographic data on 4982 patients, in addition to uninvasive medical statistics, and whether or not they've had a stroke.
-- **Motivating Questions**: Can we predict which patients are more at risk of a stroke based on their demographic data? Is there a correlation between smoking, BMI, average glucose level, and stroke risk? 
+**Source**: [Brain Stroke Dataset on Kaggle](https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset)
+**Dataset Description**: This dataset contains demographic data on 4982 patients, in addition to uninvasive medical statistics, and whether or not they've had a stroke.
+**Motivating Questions**: 
+Is there a correlation between stroke risk and: 
+- Gender?
+- Age?
+- Hypertension?
+- Marriage?
+- Residence Type?
+- Average Glucose Level?
+- BMI?
+- Whether or not a patient smokes or used to smoke?
 
 ## Data Cleaning
 - Missing or duplicate values: 
@@ -32,10 +41,20 @@ This is a sample final project created for TEDA 1031 - Data Science with Python.
 - **Reshaping**: Specify any reshaping done (e.g., pivoting or melting).
 
 ## Exploratory Data Analysis (EDA)
-Summarize the initial exploration of the dataset, including:
-- Key findings or patterns identified in the data
-- Descriptive statistics (e.g., mean, median, mode, standard deviation)
-- Correlation insights or distribution analysis
+Descriptive Statistics by Potential Indicator: 
+
+Age: 
+- mean = 43.42
+- std = 22.66
+- range = 81.92
+
+Glucose Level:
+- mean = 105.94
+- std = 45.08
+- range = 216.62
+
+
+
 
 ## Statistical Analysis
 This section details any statistical analyses performed on the dataset, including:
