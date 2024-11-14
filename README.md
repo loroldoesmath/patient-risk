@@ -14,7 +14,7 @@ This is a sample final project created for TEDA 1031 - Data Science with Python.
 
 ## Dataset
 - **Source**: [Brain Stroke Dataset on Kaggle](https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset)
-- **Dataset Description**: This dataset contains demographic data on 4982 patients, in addition to uninvasive medical statistics and whether or not they've had a stroke.
+- **Dataset Description**: This dataset contains demographic data on 4982 patients, in addition to uninvasive medical statistics, and whether or not they've had a stroke.
 - **Motivating Questions**: Can we predict which patients are more at risk of a stroke based on their demographic data? Is there a correlation between smoking, BMI, average glucose level, and stroke risk? 
 
 ## Data Cleaning
