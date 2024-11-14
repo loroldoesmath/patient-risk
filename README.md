@@ -55,6 +55,19 @@ Glucose Level:
 - std = 45.08
 - range = 216.62
 
+Percent of respondents with hypertension:  9.62%
+
+Percent of respondents with heart disease:  5.52%
+
+Percent of respondents that have been married:  65.85%
+
+Percent of respondents that have never smoked:  36.90%
+
+Percent of respondents that formerly smoked:  17.41%
+
+Percent of respondents that currently smoke:  15.58%
+
+Percent of respondents that have had a stroke:  4.98%
 
 
 
