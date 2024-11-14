@@ -35,14 +35,14 @@ This is a sample final project created for TEDA 1031 - Data Science with Python.
 Descriptive Statistics by Potential Indicator: 
 
 Age: 
-mean = 43.42
-std = 22.66
-range = 81.92
+- mean = 43.42
+- std = 22.66
+- range = 81.92
 
 Glucose Level:
-mean = 105.94
-std = 45.08
-range = 216.62
+- mean = 105.94
+- std = 45.08
+- range = 216.62
 
 
 
