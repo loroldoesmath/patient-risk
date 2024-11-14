@@ -14,7 +14,9 @@ This is a sample final project created for TEDA 1031 - Data Science with Python.
 
 ## Dataset
 **Source**: [Brain Stroke Dataset on Kaggle](https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset)
+
 **Dataset Description**: This dataset contains demographic data on 4982 patients, in addition to uninvasive medical statistics, and whether or not they've had a stroke.
+
 **Motivating Questions**: 
 Is there a correlation between stroke risk and: 
 - Gender?
