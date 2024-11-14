@@ -71,10 +71,15 @@ stroke_df = convert_yes_no(stroke_df, 'ever_married')
 
 # print(stroke_df.describe())
 
-percent_never_smoked = (df['smoking_status'].lower().eq('never smoked').mean())*100
+percent_never_smoked = (stroke_df['smoking_status'].str.lower().eq('never smoked').mean())*100
+percent_formerly_smoked = (stroke_df['smoking_status'].str.lower().eq('formerly smoked').mean())*100
+percent_currently_smoke = (stroke_df['smoking_status'].str.lower().eq('smokes').mean())*100
 
 print("Percent of respondents with hypertension: ", count_percent(stroke_df, 'hypertension'))
 print("Percent of respondents with heart disease: ", count_percent(stroke_df, 'heart_disease'))
 print("Percent of respondents that have been married: ", count_percent(stroke_df, 'ever_married'))
 print("Percent of respondents that have never smoked: ", percent_never_smoked)
+print("Percent of respondents that formerly smoked: ", percent_formerly_smoked)
+print("Percent of respondents that currently smoke: ", percent_currently_smoke)
+print("Percent of respondents that have had a stroke: ", count_percent(stroke_df, 'stroke'))
 # print("Percent of respondents who smoke", count_percent(stroke_df, 'smoking_status'))
