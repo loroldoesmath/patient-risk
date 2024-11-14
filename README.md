@@ -32,10 +32,20 @@ This is a sample final project created for TEDA 1031 - Data Science with Python.
 - **Reshaping**: Specify any reshaping done (e.g., pivoting or melting).
 
 ## Exploratory Data Analysis (EDA)
-Summarize the initial exploration of the dataset, including:
-- Key findings or patterns identified in the data
-- Descriptive statistics (e.g., mean, median, mode, standard deviation)
-- Correlation insights or distribution analysis
+Descriptive Statistics by Potential Indicator: 
+
+Age: 
+mean = 43.42
+std = 22.66
+range = 81.92
+
+Glucose Level:
+mean = 105.94
+std = 45.08
+range = 216.62
+
+
+
 
 ## Statistical Analysis
 This section details any statistical analyses performed on the dataset, including:
