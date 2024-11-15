@@ -49,6 +49,7 @@ Descriptive Statistics by Potential Indicator:
 Percent of women: 58.36% <br>
 Percent of men: 41.64% 
 
+![Strokes by Gender](gender-stroke-stacked.png)
 **Age:**  
 - mean = 43.42
 - std = 22.66
