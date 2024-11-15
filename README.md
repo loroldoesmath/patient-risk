@@ -29,9 +29,9 @@ Is there a correlation between stroke risk and:
 - Whether or not a patient smokes or used to smoke?
 
 ## Data Cleaning
-- Missing or duplicate values: 
-- Outlier detection: 
-- Data consistency
+- Missing or duplicate values: I wrote a function called check_data_clean to check for missing values, check for duplicates, and print the data types.
+- Outlier detection: Z-Score?
+- Data consistency: Since there are multiple columns containing values such as 'Yes/No', 'Rural/Urban', 'Govt_job/children/Private/Self-employed', etc., we need to encode the data in a manner that makes it more suitable for correlation analysis. I used the .get_dummies() function to create True/False columns for each of the categorical variables. 
 
 *Note: Refer to code comments for specific loading & cleaning operations, such as data consistency checks and data type conversions.*
 
