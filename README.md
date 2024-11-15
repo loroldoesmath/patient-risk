@@ -70,10 +70,10 @@ Percent of respondents that have had a **stroke**:  4.98% <br>
 Within this dataset, we can see that women constitute a slight majority (58.36%) of the respondents. The average age is 43.42 years, with a wide age range (0 to about 82 years) and a high standard deviation, indicating a diverse age distribution. Glucose levels also show significant variability, with an average of 105.94 and a large standard deviation (45.08). While the percentages of respondents with hypertension (9.62%), heart disease (5.52%), and a history of strokes (4.98%) are relatively low, these conditions might correlate with certain demographics like age or smoking habits. Most respondents have been married (65.85%). Smoking habits reveal that a majority either have never smoked (36.90%) or formerly smoked (17.41%), while only 15.58% are current smokers. 
 
 ## Statistical Analysis
-This section details any statistical analyses performed on the dataset, including:
-- Descriptive statistics (e.g., measures of central tendency and variability)
-- Correlation analysis
-- Distribution analysis
+
+**Correlation analysis:**
+
+<img src="correlation_heatmap" alt="Correlation Heatmap" width="600">
 
 ## Conclusions
 
