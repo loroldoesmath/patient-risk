@@ -75,6 +75,8 @@ Within this dataset, we can see that women constitute a slight majority (58.36%)
 
 ![Correlation Heatmap](correlation_heatmap.png)
 
+We can see here that the age has the greatest correlation with stroke out of all of the variables, with a Pearson correlation coefficient of 0.25. 
+
 ## Conclusions
 
 
