@@ -46,7 +46,7 @@ Is there a correlation between stroke risk and:
 Descriptive Statistics by Potential Indicator: 
 
 **Gender:**
-Percent of women: 58.36%
+Percent of women: 58.36% <br>
 Percent of men: 41.64% 
 
 **Age:**  
