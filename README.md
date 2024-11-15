@@ -36,11 +36,11 @@ Is there a correlation between stroke risk and:
 *Note: Refer to code comments for specific loading & cleaning operations, such as data consistency checks and data type conversions.*
 
 ## Data Manipulation
-- **Sorting**: Describe the sorting operations used, if any.
-- **Filtering**: Explain any conditions applied to subset the data.
+- **Sorting**: 
+- **Filtering**: 
 - **Grouping**: I created stroke_counts to count strokes by gender. 
-- **Merging**: If multiple datasets were merged, provide details about the merge process.
-- **Reshaping**: Specify any reshaping done (e.g., pivoting or melting).
+- **Merging**: 
+- **Reshaping**:
 
 ## Exploratory Data Analysis (EDA)
 Descriptive Statistics by Potential Indicator: 
