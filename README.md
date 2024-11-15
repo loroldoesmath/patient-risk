@@ -73,17 +73,22 @@ Within this dataset, we can see that women constitute a slight majority (58.36%)
 
 **Correlation analysis:**
 
-![Correlation Heatmap](correlation_heatmap.png)
+The following figure shows the Pearson correlation coefficients between each of the variables. 
 
-We can see here that the patient's age has the greatest correlation with stroke out of all of the variables, with a Pearson correlation coefficient of 0.25. 
+![Correlation Heatmap](correlation_heatmap.png)
 
 ## Conclusions
 
+We can see from our statistical analysis that the patient's age has the greatest positive correlation with stroke out of all of the variables, with a Pearson correlation coefficient of 0.25. Age also seems to be positively correlated to heart disease and BMI. 
+
+I was particularly curious about the effect smoking has on hypertension, heart disease, BMI, and stoke. Interestingly, current and former smokers don't seem to be at significant increased risk of any of the health conditions studied in this dataset. It is worth noting that respondents who had never smoked had a (near negligible) negative correlation with heart_disease while current and former smokers had a mild positive correlation with heart disease. 
+
+Something else we can see is that marriage is positively correlated with increased BMI (though both marriage and BMI are positively correlated with age, so this apparent relationship could likely be due solely to the fact that people are more likely to have been married if they're older, and they're also more likely to have an increased BMI as they get older).
 
 ## How to Run the Code
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-username/final-project.git
+   git clone https://github.com/loroldoesmath/patient-risk.git
    cd final-project
    ```
 
