@@ -38,7 +38,7 @@ Is there a correlation between stroke risk and:
 ## Data Manipulation
 - **Sorting**: Describe the sorting operations used, if any.
 - **Filtering**: Explain any conditions applied to subset the data.
-- **Grouping**: Mention the variables used for grouping and the purpose of this operation.
+- **Grouping**: I created stroke_counts to count strokes by gender. 
 - **Merging**: If multiple datasets were merged, provide details about the merge process.
 - **Reshaping**: Specify any reshaping done (e.g., pivoting or melting).
 
