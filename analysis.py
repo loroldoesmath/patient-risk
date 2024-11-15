@@ -75,13 +75,17 @@ stroke_df = pd.read_csv(f"{path}/brain_stroke.csv")
 
 
 # STEP 2: CLEAN DATA
+
 # check_data_clean(stroke_df)
 # Convert ever_married column to 0/1 instead of yes/no
 stroke_df = convert_yes_no(stroke_df, 'ever_married')
 stroke_df_encoded = pd.get_dummies(stroke_df, drop_first = True)
-print(stroke_df_encoded.head())
+# print(stroke_df_encoded.head())
 
 # STEP 3: DATA MANIPULATION 
+
+# Count stroke by gender
+stroke_counts = stroke_df.groupby(['gender','stroke']).size().unstack(fill_value =0)
 
 # STEP 4: EDA
 
@@ -120,7 +124,18 @@ correlation_matrix = stroke_df_encoded.corr()
 
 # 4a: Visualization
 
+'''
 plt.figure(figsize=(12,10))
 sns.heatmap(correlation_matrix, annot=True, fmt=".2f", cmap = "coolwarm", cbar = True)
 plt.title("Correlation Heatmap of All Variables")
+plt.show()
+'''
+
+ax = stroke_counts.plot(kind="bar", stacked=True, figsize=(8,6), color=['mediumaquamarine','coral'])
+
+plt.title("Gender/Stroke Status", fontsize=16)
+plt.xlabel("Gender", fontsize=12)
+plt.ylabel("Count", fontsize=12)
+plt.xticks(rotation = 0)
+plt.legend(title="Stroke", labels = ["No Stroke", "Stroke"])
 plt.show()
