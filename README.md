@@ -45,7 +45,7 @@ Is there a correlation between stroke risk and:
 ## Exploratory Data Analysis (EDA)
 Descriptive Statistics by Potential Indicator: 
 
-**Gender:**
+**Gender:** <br>
 Percent of women: 58.36% <br>
 Percent of men: 41.64% 
 
