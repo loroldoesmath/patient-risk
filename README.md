@@ -73,7 +73,7 @@ Within this dataset, we can see that women constitute a slight majority (58.36%)
 
 **Correlation analysis:**
 
-<img src="correlation_heatmap" alt="Correlation Heatmap" width="600">
+![Correlation Heatmap](correlation_heatmap.png)
 
 ## Conclusions
 
