@@ -1,4 +1,4 @@
-# Sample Final Project: Python
+# TEDA 1031 - Sample Final Python Project
 
 ## Project Overview
 This is a sample final project created for TEDA 1031 - Data Science with Python. Recall that the guiding question for this project is: *"How can I use Python to gain insight into a dataset?"* Feel free to use this README as a template for your own project. 
