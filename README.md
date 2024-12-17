@@ -36,11 +36,7 @@ Is there a correlation between stroke risk and:
 *Note: Refer to code comments for specific loading & cleaning operations, such as data consistency checks and data type conversions.*
 
 ## Data Manipulation
-- **Sorting**: 
-- **Filtering**: 
 - **Grouping**: I created stroke_counts to count strokes by gender. 
-- **Merging**: 
-- **Reshaping**:
 
 ## Exploratory Data Analysis (EDA)
 Descriptive Statistics by Potential Indicator: 
