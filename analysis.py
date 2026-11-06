@@ -7,10 +7,6 @@ import seaborn as sns
 
 # STEP 0: WRITE RELEVANT FUNCTIONS 
 
-# check_data_clean ensures that:
-#   a. No missing values
-#   b. No duplicates
-#   c. Data typing is consistent
 def check_data_clean(df):
     # a. Check for missing values
     missing_values = df.isnull().sum()
